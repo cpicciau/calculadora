@@ -1,2 +1,36 @@
 /* CSS COLOR */
 /* **************************************************************** */
+
+:root {
+    --negro: black;
+    --gris: grey;
+    --grisOscuro: rgba(169, 169, 169, 0.192);
+    --orange: rgb(245, 169, 27);
+    --white: #FFFFFF;
+}
+
+.calculadora {
+    background-color: var(--negro);
+}
+
+button:not(.cero) {
+    border-radius: 50%;
+}
+
+input {
+    color: var(--white);
+}
+
+.orange {
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+.gris {
+    background-color: var(--gris);
+}
+
+.number .dec{
+    color: var(--white);
+    background-color: var(--grisOscuro);
+}
