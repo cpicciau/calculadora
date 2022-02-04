@@ -12,3 +12,12 @@ button {
     height: 50px;
     border: 1px solid white;
 }
+
+button:not(.cero) {
+    border-radius: 50%;
+}
+
+.cero {
+    width:100px;
+    border-radius: 50px;
+  }
